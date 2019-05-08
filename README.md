@@ -8,6 +8,7 @@ Please clone the repository using following url:
 Then please make a directory of your own name. After that create directories as per task number.
 
 For example:
+```bash
 mahbub
 |
 |--task_3-2
@@ -17,3 +18,4 @@ mahbub
 |--task_3-3
 |	|
 |	|--sample.txt
+```
