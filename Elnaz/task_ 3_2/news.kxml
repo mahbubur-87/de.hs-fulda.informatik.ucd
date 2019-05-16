@@ -6,7 +6,7 @@
         <task-name>check news</task-name>
         <task-numero>Root</task-numero>
         <task-observation/>
-        <task-executant>INT</task-executant>
+        <task-executant>ABS</task-executant>
         <task-modality>COGN</task-modality>
         <task-optional>false</task-optional>
         <task-interruptible>false</task-interruptible>
@@ -35,7 +35,7 @@
                 <point-y>217</point-y>
             </point>
             <task classkmad="tache.Task" id-task-point="K6" idkmad="K7">
-                <task-name>business</task-name>
+                <task-name>choose business</task-name>
                 <task-numero>1.1</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
@@ -47,12 +47,12 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K6">
-                    <point-x>8</point-x>
-                    <point-y>417</point-y>
+                    <point-x>0</point-x>
+                    <point-y>523</point-y>
                 </point>
             </task>
             <task classkmad="tache.Task" id-task-point="K9" idkmad="K10">
-                <task-name>tech</task-name>
+                <task-name>choose tech</task-name>
                 <task-numero>1.2</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
@@ -64,12 +64,12 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K9">
-                    <point-x>154</point-x>
-                    <point-y>417</point-y>
+                    <point-x>141</point-x>
+                    <point-y>523</point-y>
                 </point>
             </task>
             <task classkmad="tache.Task" id-task-point="K12" idkmad="K13">
-                <task-name>science</task-name>
+                <task-name>choose science</task-name>
                 <task-numero>1.3</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
@@ -81,12 +81,12 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K12">
-                    <point-x>306</point-x>
-                    <point-y>417</point-y>
+                    <point-x>304</point-x>
+                    <point-y>523</point-y>
                 </point>
             </task>
             <task classkmad="tache.Task" id-task-point="K15" idkmad="K16">
-                <task-name>stories</task-name>
+                <task-name>choose stories</task-name>
                 <task-numero>1.4</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
@@ -98,12 +98,12 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K15">
-                    <point-x>462</point-x>
-                    <point-y>417</point-y>
+                    <point-x>450</point-x>
+                    <point-y>523</point-y>
                 </point>
             </task>
             <task classkmad="tache.Task" id-task-point="K18" idkmad="K19">
-                <task-name>Entertainment and art</task-name>
+                <task-name>choose entertainment and art</task-name>
                 <task-numero>1.5</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
@@ -115,12 +115,12 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K18">
-                    <point-x>622</point-x>
-                    <point-y>417</point-y>
+                    <point-x>598</point-x>
+                    <point-y>523</point-y>
                 </point>
             </task>
             <task classkmad="tache.Task" id-task-point="K21" idkmad="K22">
-                <task-name>health</task-name>
+                <task-name>choose health</task-name>
                 <task-numero>1.6</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
@@ -132,12 +132,12 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K21">
-                    <point-x>804</point-x>
-                    <point-y>417</point-y>
+                    <point-x>871</point-x>
+                    <point-y>523</point-y>
                 </point>
             </task>
             <task classkmad="tache.Task" id-task-point="K39" idkmad="K40">
-                <task-name>summary daily news</task-name>
+                <task-name>choose summary daily news</task-name>
                 <task-numero>1.7</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
@@ -149,8 +149,8 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K39">
-                    <point-x>954</point-x>
-                    <point-y>417</point-y>
+                    <point-x>1036</point-x>
+                    <point-y>523</point-y>
                 </point>
             </task>
         </task>

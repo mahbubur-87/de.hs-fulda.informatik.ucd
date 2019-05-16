@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kmad-model SYSTEM "file:KMADModelJT.dtd">
+<kmad-model version="1.3">
+    <project classkmad="project.Project" idkmad="K1"/>
+    <task classkmad="tache.Task" id-task-point="K3" id-task-subtasks-list="K7 K10 K28 " idkmad="K4">
+        <task-name>spend time in Netflix</task-name>
+        <task-numero>Root</task-numero>
+        <task-observation/>
+        <task-executant>ABS</task-executant>
+        <task-modality>COGN</task-modality>
+        <task-optional>false</task-optional>
+        <task-interruptible>false</task-interruptible>
+        <task-decomposition>SEQ</task-decomposition>
+        <task-precondition>true</task-precondition>
+        <task-effetsdebord>void</task-effetsdebord>
+        <task-iteration>[1]</task-iteration>
+        <point classkmad="tache.Point" idkmad="K3">
+            <point-x>535</point-x>
+            <point-y>48</point-y>
+        </point>
+        <task classkmad="tache.Task" id-task-point="K6" id-task-subtasks-list="K16 K19 K31 " idkmad="K7">
+            <task-name>choose a category</task-name>
+            <task-numero>1</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>ALT</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K6">
+                <point-x>335</point-x>
+                <point-y>213</point-y>
+            </point>
+            <task classkmad="tache.Task" id-task-point="K15" idkmad="K16">
+                <task-name>choose TV series</task-name>
+                <task-numero>1.1</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K15">
+                    <point-x>158</point-x>
+                    <point-y>357</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K18" idkmad="K19">
+                <task-name>choose Movies</task-name>
+                <task-numero>1.2</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K18">
+                    <point-x>343</point-x>
+                    <point-y>357</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K30" id-task-subtasks-list="K22 K34 K25 " idkmad="K31">
+                <task-name>choose saved item type</task-name>
+                <task-numero>1.3</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>ALT</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K30">
+                    <point-x>508</point-x>
+                    <point-y>357</point-y>
+                </point>
+                <task classkmad="tache.Task" id-task-point="K21" idkmad="K22">
+                    <task-name>choose from favorites</task-name>
+                    <task-numero>1.3.1</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K21">
+                        <point-x>294</point-x>
+                        <point-y>511</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K33" idkmad="K34">
+                    <task-name>choose from watch later</task-name>
+                    <task-numero>1.3.2</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K33">
+                        <point-x>508</point-x>
+                        <point-y>511</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K24" idkmad="K25">
+                    <task-name>choose from history</task-name>
+                    <task-numero>1.3.3</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K24">
+                        <point-x>752</point-x>
+                        <point-y>511</point-y>
+                    </point>
+                </task>
+            </task>
+        </task>
+        <task classkmad="tache.Task" id-task-point="K9" idkmad="K10">
+            <task-name>present list of selected category</task-name>
+            <task-numero>3</task-numero>
+            <task-observation/>
+            <task-executant>SYS</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K9">
+                <point-x>493</point-x>
+                <point-y>213</point-y>
+            </point>
+        </task>
+        <task classkmad="tache.Task" id-task-point="K27" idkmad="K28">
+            <task-name>select a program</task-name>
+            <task-numero>4</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K27">
+                <point-x>738</point-x>
+                <point-y>213</point-y>
+            </point>
+        </task>
+    </task>
+</kmad-model>
