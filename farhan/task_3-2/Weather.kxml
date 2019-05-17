@@ -2,7 +2,7 @@
 <!DOCTYPE kmad-model SYSTEM "file:KMADModelJT.dtd">
 <kmad-model version="1.3">
     <project classkmad="project.Project" idkmad="K1"/>
-    <task classkmad="tache.Task" id-task-point="K3" id-task-subtasks-list="K7 K10 " idkmad="K4">
+    <task classkmad="tache.Task" id-task-point="K3" id-task-subtasks-list="K7 K21 " idkmad="K4">
         <task-name>Show Weather</task-name>
         <task-numero>Root</task-numero>
         <task-observation/>
@@ -10,7 +10,7 @@
         <task-modality>COGN</task-modality>
         <task-optional>false</task-optional>
         <task-interruptible>false</task-interruptible>
-        <task-decomposition>ALT</task-decomposition>
+        <task-decomposition>SEQ</task-decomposition>
         <task-precondition>true</task-precondition>
         <task-effetsdebord>void</task-effetsdebord>
         <task-iteration>[1]</task-iteration>
@@ -35,22 +35,56 @@
                 <point-y>327</point-y>
             </point>
         </task>
-        <task classkmad="tache.Task" id-task-point="K9" idkmad="K10">
-            <task-name>Show Weekly Weather</task-name>
+        <task classkmad="tache.Task" id-task-point="K20" id-task-subtasks-list="K15 K18 " idkmad="K21">
+            <task-name>Show Weekly weather</task-name>
             <task-numero>2</task-numero>
             <task-observation/>
-            <task-executant>INT</task-executant>
+            <task-executant>ABS</task-executant>
             <task-modality>COGN</task-modality>
-            <task-optional>false</task-optional>
+            <task-optional>true</task-optional>
             <task-interruptible>false</task-interruptible>
-            <task-decomposition>LEAF</task-decomposition>
+            <task-decomposition>SEQ</task-decomposition>
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
-            <point classkmad="tache.Point" idkmad="K9">
-                <point-x>878</point-x>
-                <point-y>306</point-y>
+            <point classkmad="tache.Point" idkmad="K20">
+                <point-x>905</point-x>
+                <point-y>327</point-y>
             </point>
+            <task classkmad="tache.Task" id-task-point="K14" idkmad="K15">
+                <task-name>Choose Week</task-name>
+                <task-numero>2.1</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K14">
+                    <point-x>792</point-x>
+                    <point-y>494</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K17" idkmad="K18">
+                <task-name>Display Weather of Selected Week</task-name>
+                <task-numero>2.2</task-numero>
+                <task-observation/>
+                <task-executant>SYS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K17">
+                    <point-x>997</point-x>
+                    <point-y>494</point-y>
+                </point>
+            </task>
         </task>
     </task>
 </kmad-model>
