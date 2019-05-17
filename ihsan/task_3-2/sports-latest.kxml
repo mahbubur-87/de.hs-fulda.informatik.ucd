@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kmad-model SYSTEM "file:KMADModelJT.dtd">
+<kmad-model version="1.3">
+    <project classkmad="project.Project" idkmad="K1"/>
+    <task classkmad="tache.Task" id-task-point="K3" id-task-subtasks-list="K7 K16 K34 K40 K70 K73 " idkmad="K4">
+        <task-name>be informed and have knowledge about sports</task-name>
+        <task-numero>Root</task-numero>
+        <task-observation/>
+        <task-executant>ABS</task-executant>
+        <task-modality>COGN</task-modality>
+        <task-optional>false</task-optional>
+        <task-interruptible>false</task-interruptible>
+        <task-decomposition>SEQ</task-decomposition>
+        <task-precondition>true</task-precondition>
+        <task-effetsdebord>void</task-effetsdebord>
+        <task-iteration>[1]</task-iteration>
+        <point classkmad="tache.Point" idkmad="K3">
+            <point-x>522</point-x>
+            <point-y>31</point-y>
+        </point>
+        <task classkmad="tache.Task" id-task-point="K6" idkmad="K7">
+            <task-name>open sports module</task-name>
+            <task-numero>1</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K6">
+                <point-x>40</point-x>
+                <point-y>244</point-y>
+            </point>
+        </task>
+        <task classkmad="tache.Task" id-task-point="K15" id-task-subtasks-list="K19 K22 " idkmad="K16">
+            <task-name>select league</task-name>
+            <task-numero>2</task-numero>
+            <task-observation/>
+            <task-executant>ABS</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>ALT</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K15">
+                <point-x>327</point-x>
+                <point-y>244</point-y>
+            </point>
+            <task classkmad="tache.Task" id-task-point="K18" idkmad="K19">
+                <task-name>choose a league by searching</task-name>
+                <task-numero>2.1</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K18">
+                    <point-x>127</point-x>
+                    <point-y>503</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K21" id-task-subtasks-list="K25 K28 K31 " idkmad="K22">
+                <task-name>choose a league by selecting</task-name>
+                <task-numero>2.2</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>SEQ</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K21">
+                    <point-x>429</point-x>
+                    <point-y>503</point-y>
+                </point>
+                <task classkmad="tache.Task" id-task-point="K24" idkmad="K25">
+                    <task-name>select a sport type</task-name>
+                    <task-numero>2.2.1</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K24">
+                        <point-x>290</point-x>
+                        <point-y>752</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K27" idkmad="K28">
+                    <task-name>select a country</task-name>
+                    <task-numero>2.2.2</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K27">
+                        <point-x>492</point-x>
+                        <point-y>752</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Task" id-task-point="K30" idkmad="K31">
+                    <task-name>select a league</task-name>
+                    <task-numero>2.2.3</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K30">
+                        <point-x>688</point-x>
+                        <point-y>752</point-y>
+                    </point>
+                </task>
+            </task>
+        </task>
+        <task classkmad="tache.Task" id-task-point="K33" idkmad="K34">
+            <task-name>add selected league to the list</task-name>
+            <task-numero>3</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K33">
+                <point-x>555</point-x>
+                <point-y>244</point-y>
+            </point>
+        </task>
+        <task classkmad="tache.Task" id-task-point="K39" id-task-subtasks-list="K43 K46 K67 " idkmad="K40">
+            <task-name>display league informations</task-name>
+            <task-numero>4</task-numero>
+            <task-observation/>
+            <task-executant>SYS</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>ALT</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K39">
+                <point-x>921</point-x>
+                <point-y>244</point-y>
+            </point>
+            <task classkmad="tache.Task" id-task-point="K42" idkmad="K43">
+                <task-name>display recent news</task-name>
+                <task-numero>4.1</task-numero>
+                <task-observation/>
+                <task-executant>SYS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K42">
+                    <point-x>806</point-x>
+                    <point-y>478</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K45" idkmad="K46">
+                <task-name>display fixtures</task-name>
+                <task-numero>4.2</task-numero>
+                <task-observation/>
+                <task-executant>SYS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K45">
+                    <point-x>985</point-x>
+                    <point-y>478</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K66" idkmad="K67">
+                <task-name>display teams &amp; players</task-name>
+                <task-numero>4.3</task-numero>
+                <task-observation/>
+                <task-executant>SYS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K66">
+                    <point-x>1140</point-x>
+                    <point-y>478</point-y>
+                </point>
+            </task>
+        </task>
+        <task classkmad="tache.Task" id-task-point="K69" idkmad="K70">
+            <task-name>select a team &amp; player</task-name>
+            <task-numero>5</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K69">
+                <point-x>1267</point-x>
+                <point-y>223</point-y>
+            </point>
+        </task>
+        <task classkmad="tache.Task" id-task-point="K72" id-task-subtasks-list="K55 K58 K64 K61 " idkmad="K73">
+            <task-name>display team &amp; player informations</task-name>
+            <task-numero>6</task-numero>
+            <task-observation/>
+            <task-executant>SYS</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>ALT</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K72">
+                <point-x>1626</point-x>
+                <point-y>223</point-y>
+            </point>
+            <task classkmad="tache.Task" id-task-point="K54" idkmad="K55">
+                <task-name>display team &amp; player preliminary info</task-name>
+                <task-numero>6.1</task-numero>
+                <task-observation/>
+                <task-executant>SYS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K54">
+                    <point-x>1340</point-x>
+                    <point-y>503</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K57" idkmad="K58">
+                <task-name>display team &amp; player statistics</task-name>
+                <task-numero>6.2</task-numero>
+                <task-observation/>
+                <task-executant>SYS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K57">
+                    <point-x>1627</point-x>
+                    <point-y>503</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K63" idkmad="K64">
+                <task-name>display team &amp; player history</task-name>
+                <task-numero>6.3</task-numero>
+                <task-observation/>
+                <task-executant>SYS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K63">
+                    <point-x>1871</point-x>
+                    <point-y>503</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Task" id-task-point="K60" idkmad="K61">
+                <task-name>display achievements</task-name>
+                <task-numero>6.4</task-numero>
+                <task-observation/>
+                <task-executant>SYS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K60">
+                    <point-x>2103</point-x>
+                    <point-y>503</point-y>
+                </point>
+            </task>
+        </task>
+    </task>
+</kmad-model>
