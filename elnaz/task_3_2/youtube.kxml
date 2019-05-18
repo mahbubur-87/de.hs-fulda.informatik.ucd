@@ -6,7 +6,7 @@
         <task-name>spend time in youtube</task-name>
         <task-numero>Root</task-numero>
         <task-observation/>
-        <task-executant>INT</task-executant>
+        <task-executant>ABS</task-executant>
         <task-modality>COGN</task-modality>
         <task-optional>false</task-optional>
         <task-interruptible>false</task-interruptible>
