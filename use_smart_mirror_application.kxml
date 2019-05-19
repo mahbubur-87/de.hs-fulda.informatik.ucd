@@ -259,7 +259,7 @@
                     <point-y>628</point-y>
                 </point>
                 <task classkmad="tache.Task" id-task-point="K61" idkmad="K62">
-                    <task-name>spend time in tweeter</task-name>
+                    <task-name>spend time in Tweeter</task-name>
                     <task-numero>7.7.1</task-numero>
                     <task-observation/>
                     <task-executant>ABS</task-executant>
@@ -276,7 +276,7 @@
                     </point>
                 </task>
                 <task classkmad="tache.Task" id-task-point="K64" idkmad="K65">
-                    <task-name>spend time in youtube</task-name>
+                    <task-name>spend time in Youtube</task-name>
                     <task-numero>7.7.2</task-numero>
                     <task-observation/>
                     <task-executant>ABS</task-executant>
